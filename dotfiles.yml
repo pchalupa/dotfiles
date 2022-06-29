@@ -10,3 +10,7 @@
       - role: git
         tags:
             - git
+      
+      - role: npmrc
+        tags:
+            - npmrc
