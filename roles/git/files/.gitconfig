@@ -1,0 +1,10 @@
+[user]
+	email = chalupa.petr93@gmail.com
+	name = pchalupa
+	signingkey = 0FFC72E215923C33
+[commit]
+	gpgsign = true
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
