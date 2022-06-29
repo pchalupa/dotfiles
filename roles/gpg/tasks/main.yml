@@ -1,0 +1,7 @@
+- copy:
+    src: key.gpg
+    dest: ~/key.gpg
+
+- name: Import GPG key
+  ansible.builtin.shell:
+    cmd: gpg --import ~/key.gpg && rm ~/key.gpg
