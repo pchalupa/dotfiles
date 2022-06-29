@@ -1,0 +1,8 @@
+- name: Setup dotfiles
+  hosts:
+    - localhost
+
+  roles:
+      - role: ssh
+        tags:
+            - ssh

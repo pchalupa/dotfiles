@@ -1,0 +1,8 @@
+- copy:
+    src: id_rsa
+    dest: ~/.ssh/id_rsa
+    mode: 0600
+- copy:
+    src: id_rsa.pub
+    dest: ~/.ssh/id_rsa.pub
+    mode: 0600
