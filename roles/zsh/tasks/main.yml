@@ -1,0 +1,4 @@
+- copy:
+    src: .zshrc
+    dest: ~/.zshrc
+    mode: 0644
