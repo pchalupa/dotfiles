@@ -10,14 +10,19 @@
       - role: gpg
         tags:
             - gpg
-
+      
       - role: git
         tags:
             - git
-
+      
       - role: npmrc
         tags:
             - npmrc
+      
       - role: zsh
         tags:
             - zsh
+
+      - role: vim
+        tags:
+            - vim
