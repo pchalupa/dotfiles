@@ -8,3 +8,5 @@
 	editor = nano
 [init]
 	defaultBranch = main
+[fetch]
+	prune = true
