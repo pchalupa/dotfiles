@@ -15,9 +15,9 @@
         tags:
             - git
       
-      - role: npmrc
+      - role: npm
         tags:
-            - npmrc
+            - npm
 
       - role: yarn
         tags:
