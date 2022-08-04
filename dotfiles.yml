@@ -18,6 +18,10 @@
       - role: npmrc
         tags:
             - npmrc
+
+      - role: yarn
+        tags:
+            - yarn
       
       - role: zsh
         tags:
