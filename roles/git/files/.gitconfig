@@ -5,10 +5,16 @@
 [commit]
 	gpgsign = true
 [core]
-	editor = nano 
+	editor = nano
 [init]
 	defaultBranch = main
 [fetch]
 	prune = true
 [push]
 	autoSetupRemote = true
+[alias]
+	c = checkout
+	cm = commit -m
+	ps = push
+	pl = pull
+	st = status
