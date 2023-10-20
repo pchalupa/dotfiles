@@ -3,6 +3,10 @@
     - localhost
 
   roles:
+      - role: brew
+        tags:
+            - brew
+
       - role: ssh
         tags:
             - ssh
@@ -10,11 +14,11 @@
       - role: gpg
         tags:
             - gpg
-      
+
       - role: git
         tags:
             - git
-      
+
       - role: npm
         tags:
             - npm
@@ -22,7 +26,7 @@
       - role: yarn
         tags:
             - yarn
-      
+
       - role: zsh
         tags:
             - zsh
@@ -30,3 +34,7 @@
       - role: vim
         tags:
             - vim
+
+      - role: post-setup
+        tags:
+            - post-setup

@@ -1,0 +1,7 @@
+- community.general.homebrew:
+    name: node
+    state: present
+
+- community.general.homebrew:
+    name: fzf
+    state: present

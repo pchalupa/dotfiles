@@ -1,0 +1,2 @@
+- name: Install key bindings and fuzzy completion
+  ansible.builtin.shell: $(brew --prefix)/opt/fzf/install
