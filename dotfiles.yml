@@ -19,14 +19,6 @@
         tags:
             - git
 
-      - role: npm
-        tags:
-            - npm
-
-      - role: yarn
-        tags:
-            - yarn
-
       - role: zsh
         tags:
             - zsh
@@ -34,6 +26,10 @@
       - role: vim
         tags:
             - vim
+
+      - role: tmux
+        tags:
+            - tmux
 
       - role: post-setup
         tags:

@@ -5,3 +5,7 @@
 - community.general.homebrew:
     name: fzf
     state: present
+
+- community.general.homebrew:
+    name: tmux
+    state: present

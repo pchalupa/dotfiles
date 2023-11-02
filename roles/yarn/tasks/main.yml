@@ -1,4 +1,0 @@
-- copy:
-    src: .yarnrc
-    dest: ~/.yarnrc
-    mode: 0600

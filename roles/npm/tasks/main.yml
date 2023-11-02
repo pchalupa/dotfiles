@@ -1,4 +1,0 @@
-- copy:
-    src: .npmrc
-    dest: ~/.npmrc
-    mode: 0600

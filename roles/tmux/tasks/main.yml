@@ -1,0 +1,7 @@
+- copy:
+    src: .tmux.conf
+    dest: ~/.tmux.conf
+    mode: 0644
+
+- name: Enable tmux configuration
+  ansible.builtin.shell: tmux source ~/.tmux.conf
