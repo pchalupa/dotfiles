@@ -17,3 +17,7 @@
 - community.general.homebrew:
     name: warp
     state: present
+
+- community.general.homebrew:
+    name: git
+    state: present
