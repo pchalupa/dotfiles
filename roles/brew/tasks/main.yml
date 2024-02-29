@@ -9,3 +9,11 @@
 - community.general.homebrew:
     name: tmux
     state: present
+
+- community.general.homebrew:
+    name: docker
+    state: present
+
+- community.general.homebrew:
+    name: warp
+    state: present
