@@ -21,3 +21,6 @@
 - community.general.homebrew:
     name: git
     state: present
+
+community.general.homebrew_cask:
+    name: raycast
