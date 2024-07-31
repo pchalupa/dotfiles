@@ -13,11 +13,13 @@
 [push]
 	autoSetupRemote = true
 [alias]
+	a = add	
 	c = checkout
-	cm = commit -m
+	cm = commit
+	m = merge
 	ps = push
 	pl = pull
-	st = status
+	s = status
+	l = log
 [pull]
 	ff = only
-
