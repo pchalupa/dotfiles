@@ -16,6 +16,7 @@
 	a = add	
 	c = checkout
 	cm = commit
+	cp = cherry-pick
 	m = merge
 	ps = push
 	pl = pull
