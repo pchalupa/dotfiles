@@ -1,4 +1,12 @@
 - community.general.homebrew:
+    name: git
+    state: present
+
+- community.general.homebrew:
+    name: gpg
+    state: present
+
+- community.general.homebrew:
     name: node
     state: present
 
@@ -6,21 +14,11 @@
     name: fzf
     state: present
 
-- community.general.homebrew:
-    name: tmux
-    state: present
-
-- community.general.homebrew:
-    name: docker
-    state: present
-
-- community.general.homebrew:
+- community.general.homebrew_cask:
     name: warp
-    state: present
 
-- community.general.homebrew:
-    name: git
-    state: present
-
-community.general.homebrew_cask:
+- community.general.homebrew_cask:
     name: raycast
+
+- community.general.homebrew_cask:
+    name: ghostty
