@@ -1,0 +1,7 @@
+- community.general.homebrew_cask:
+    name: ghostty
+
+- copy:
+    src: config
+    dest: ~/.config/ghostty/config
+    mode: 0644

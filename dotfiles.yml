@@ -31,6 +31,10 @@
         tags:
             - tmux
 
+      - role: ghostty
+        tags:
+            - ghostty
+
       - role: post-setup
         tags:
             - post-setup

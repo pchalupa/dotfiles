@@ -10,15 +10,5 @@
     name: node
     state: present
 
-- community.general.homebrew:
-    name: fzf
-    state: present
-
-- community.general.homebrew_cask:
-    name: warp
-
 - community.general.homebrew_cask:
     name: raycast
-
-- community.general.homebrew_cask:
-    name: ghostty
