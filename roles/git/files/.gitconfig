@@ -22,5 +22,6 @@
 	pl = pull
 	s = status
 	l = log
+	w = worktree
 [pull]
 	ff = only
