@@ -1,13 +1,10 @@
 - community.general.homebrew:
-    name: git
-    state: present
-
-- community.general.homebrew:
-    name: gpg
-    state: present
-
-- community.general.homebrew:
-    name: node
+    name:
+      - git
+      - gpg
+      - node
+      - fzf
+      - jq
     state: present
 
 - community.general.homebrew_cask:
