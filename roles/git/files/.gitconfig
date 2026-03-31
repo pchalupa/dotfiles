@@ -13,7 +13,8 @@
 [push]
 	autoSetupRemote = true
 [alias]
-	a = add	
+	a = add
+	b = branch
 	c = checkout
 	cm = commit
 	cp = cherry-pick
