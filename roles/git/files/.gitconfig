@@ -22,6 +22,7 @@
 	ps = push
 	pl = pull
 	s = status
+	st = stash
 	l = log
 	w = worktree
 [pull]
