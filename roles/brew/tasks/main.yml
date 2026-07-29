@@ -1,6 +1,7 @@
 - community.general.homebrew:
     name:
       - git
+      - gh
       - gpg
       - node
       - fzf

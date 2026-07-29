@@ -1,3 +1,5 @@
+PATH="$(brew --prefix)/bin:$PATH"
+
 setopt prompt_subst
 setopt AUTO_CD
 setopt APPEND_HISTORY
